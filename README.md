@@ -1,5 +1,21 @@
 # SoundMatcher
 
+## Steps to run the code
+* `git clone https://github.com/revanshu/sound-matcher.git`
+* `cd sound-matcher/`
+* Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+
+## Questions 
+
+Why this Layout?
+* To make it more UX friendly such that user does not have to move to some other page or modal and can do all the matching in a single screen
+* This involved lesser click to resolve sound recordings
+
+What would you do to improve user experience?
+* Add clear message to show that input is resolved or not
+* Proper messages for errors
+
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.20.
 
 ## Development server
