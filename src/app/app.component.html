@@ -14,7 +14,7 @@
             </div>
         </div>
     </div>
-    <div class="hint" *ngIf="inputRecordings.length > 0">Select input recordings to start matching, scroll to view more</div>
+    <div class="hint" *ngIf="inputRecordings && inputRecordings.length > 0">Select input recordings to start matching, scroll to view more</div>
 
     <h3>Match and Resolve recording</h3>
     <div class="table">
@@ -31,7 +31,7 @@
             </div>
         </div>
     </div>
-    <div class="hint" *ngIf="filteredDatabaseRecordings.length > 0">Select matching recordings from database to resolve</div>
+    <div class="hint" *ngIf="filteredDatabaseRecordings && filteredDatabaseRecordings.length > 0">Select matching recordings from database to resolve</div>
 
     <button type="button" (click)="resolveClick()">Resolve</button>
     <button type="button" (click)="showAllClick()">Show all</button>

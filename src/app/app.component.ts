@@ -48,7 +48,9 @@ export class AppComponent {
   rowSelected(row){
       this.selectedInputRecordings = row;
       this.filteredDatabaseRecordings = this.databaseRecordings.filter(col => {
-        return col[0].includes(this.selectedInputRecordings[0]) || col[1].includes(this.selectedInputRecordings[1]);
+        return col[0].includes(this.selectedInputRecordings[0]) ||
+        col[1].includes(this.selectedInputRecordings[1]) ||
+        col[2] === this.selectedInputRecordings[2];
       });
       this.selectedDatabaseRecordings = null;
   }

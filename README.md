@@ -14,6 +14,7 @@ Why this Layout?
 What would you do to improve user experience?
 * Add clear message to show that input is resolved or not
 * Proper messages for errors
+* Able to revert changes if something is done by mistake
 
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.20.
